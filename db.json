@@ -1,0 +1,110 @@
+{
+  "user": [
+    {
+      "id": "416a",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "role": "admin",
+      "password": "admin",
+      "point": 0
+    },
+    {
+      "id": "ae70",
+      "username": "karan",
+      "email": "karan@gmail.com",
+      "role": "employee",
+      "password": "4321",
+      "point": 1000
+    },
+    {
+      "id": "bd7f",
+      "username": "deep",
+      "email": "deep@gmail.com",
+      "role": "hr",
+      "password": "1234",
+      "point": 0
+    },
+    {
+      "id": "748e",
+      "username": "vishal",
+      "email": "vishal@gmail.com",
+      "role": "employee",
+      "password": "1234",
+      "point": 0
+    }
+  ],
+  "products": [
+    {
+      "category": "men's clothing",
+      "title": "Mens Cotton Jacket",
+      "points": 500,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "brand": "addidas",
+      "id": "3",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+    },
+    {
+      "category": "jewelery",
+      "title": "Solid Gold Petite Micropave",
+      "points": 2000,
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days",
+      "brand": "kalyan",
+      "id": "4",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+    },
+    {
+      "category": "men's clothing",
+      "title": "Mens Casual Slim Fit",
+      "points": 1000,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "brand": "roadster",
+      "id": "5",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+    },
+    {
+      "category": "jewelery",
+      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "points": 2500,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "brand": "tanishq",
+      "id": "6",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+    },
+    {
+      "category": "jewelery",
+      "title": "White Gold Plated Princess",
+      "points": 2500,
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "brand": "tanishq",
+      "id": "7",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+    },
+    {
+      "category": "jewelery",
+      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "points": 3000,
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "brand": "kalyan",
+      "id": "8",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+    },
+    {
+      "category": "electronics",
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "points": 5000,
+      "description": "\"Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "brand": "sandisk",
+      "id": "10",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+    },
+    {
+      "id": "e487",
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "points": "1000",
+      "brand": "Acer",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz"
+    }
+  ]
+}
