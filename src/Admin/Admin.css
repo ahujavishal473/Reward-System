@@ -1,0 +1,12 @@
+.active{
+    color:white
+}
+/* .container{
+    font-family: 'Clash Display';
+} */
+.content {
+    position: relative;
+    background-color: #f0f3f8;
+    min-height: calc(100vh - 76px); 
+    overflow-y: auto; /* Always show scrollbar if content exceeds viewport height */
+  }

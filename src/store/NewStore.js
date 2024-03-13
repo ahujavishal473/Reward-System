@@ -1,9 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import dataSlice from "./dataSlice";
+import RewardSlice from "./RewardSlice";
 
-const NewStore=configureStore({
+const store=configureStore({
     reducer:{
-        data:dataSlice
+        employeedata:dataSlice,
+        reward:RewardSlice
     }
+    
 })
-export default NewStore
+export default store

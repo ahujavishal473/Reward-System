@@ -1,37 +1,35 @@
-import AdminAddProduct from './Admin/AdminAddProduct';
-import AdminEdit from './Admin/AdminEdit';
-import AdminHome from './Admin/AdminHome';
-import AdminProducts from './Admin/AdminProducts';
-import AdminProductsEdit from './Admin/AdminProductsEdit';
 import './App.css';
-import Home from './Component/Home';
-import Login from './Component/Login';
-import Nav from './Component/Nav';
-import Register from './Component/Register';
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 import Admin from './Admin/Admin';
+import AdminEmployee from './Admin/AdminEmployee';
+import Login from './Component/Login'
+import DashBoard from './Admin/DashBoard';
+import AdminProducts from './Admin/AdminProducts';
+import Register from './Admin/Register';
+import Reward from './Admin/Reward';
+import Point from './Admin/Point';
+import RewardEdit from './Admin/RewardEdit';
 function App() {
   return (
-    <>
-    
+    <div >
+   
       <Router>
         <Routes>
-          <Route path='/' element={<Login />} /> 
-          <Route path="/admin/*" element={<Admin />} />
+
+          <Route path='/' element={<Login />}/>
+        
+          
+          <Route path='/admin/*' element={<Admin />}/>
+          <Route path='employee' element={<AdminEmployee />} />
           <Route path='products' element={<AdminProducts />} />
-          <Route path='/home' element={<Home />}/>
-          <Route path="addemployee" element={<Register />} />
-          {/* <Route path='/admin/products' element={<AdminProducts />} /> */}
-          {/* <Route path='/admin' element={<AdminHome />}/>
-          <Route path='/admin/addemployee' element={<Register />} />
-          <Route path='/admin/editemployee/:id' element={<AdminEdit />}/>
-          <Route path='/admin/products' element={<AdminProducts />} />
-          <Route path='/admin/addproducts' element={<AdminAddProduct />} />
-          <Route path='/admin/editproduct/:id' element={<AdminProductsEdit />}/>
-  ] */}
+          <Route path='addemployee' element={<Register />} />
+          <Route path='addproducts' element={<AdminProducts />} />
+          <Route path='reward' element={<Reward />}/>
+          <Route path='addrewardcategory' element={<Point />} />
+          <Route path='editreward/:id' element={<RewardEdit />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 

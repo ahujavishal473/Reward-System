@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'clash': ['Clash Display', 'sans-serif'],
+        'satoshi':['Satoshi','sans-serif']
+      },
+    },
   },
   plugins: [],
 }

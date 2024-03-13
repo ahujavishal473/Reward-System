@@ -25,9 +25,9 @@ const Login = () => {
         console.log("data",data);
         if(data.length>0){
             if(formData.password=== data[0].password){
-                localStorage.setItem("loginUser",JSON.stringify(formData))
+                localStorage.setItem("loginUser",JSON.stringify(data))
                 if(data[0].role==='admin'){
-                    navigate('/admin')
+                    navigate('/admin/dashboard')
                 }
                 else{
                     navigate('/home')
