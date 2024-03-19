@@ -5,7 +5,6 @@ const Login = () => {
     const navigate=useNavigate()
     const [formData, setFormData] = useState({
         username: '',
-      
         password: '',
     })
     const handleChange = (e) => {
@@ -30,8 +29,11 @@ const Login = () => {
                     navigate('/admin/dashboard')
                 }
                 else{
-                    navigate('/home')
+                    navigate('/')
                 }
+            }
+            else{
+                alert("Enter a valid details")
             }
         }
         else{

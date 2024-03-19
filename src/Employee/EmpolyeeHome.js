@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import Nav from './Nav'
+import Product from './Product'
 
-const Home = () => {
-    useEffect=()=>{
-        axios.get()
-    }
+const EmpolyeeHome = () => {
   return (
     <div>
-      
+      {/* <Nav />
+      <Product /> */}
     </div>
   )
 }
 
-export default Home
+export default EmpolyeeHome

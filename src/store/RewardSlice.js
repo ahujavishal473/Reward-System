@@ -20,3 +20,13 @@ export function fetchRewards(){
         .catch((error)=>console.log(error))
     }
 }
+
+export function DeleteReward(id){
+    return async function(dispatch,getstate){
+        await fetch(`http://localhost:3000/Rewards/${id}`,{
+            method:'DELETE'
+        })
+        .then((response)=>dispatch(rewardData(response.data)))
+        .catch((error)=>console.log(error))
+    }
+}

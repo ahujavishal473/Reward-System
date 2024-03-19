@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchRewards } from '../store/RewardSlice'
+import { DeleteReward, fetchRewards } from '../store/RewardSlice'
 import { MdDeleteOutline } from "react-icons/md";
 import { FiEdit } from "react-icons/fi";
 import { Link } from 'react-router-dom';
@@ -9,14 +9,29 @@ const Reward = () => {
     var reward=useSelector((state)=>state.reward)
     useEffect(()=>{
         dispatch(fetchRewards())
+        console.log("12")
     },[dispatch])
     
-    const handleDelete=(id)=>{
-      fetch(`http://localhost:3000/Rewards/${id}`,{
-        method:"DELETE"
-      })
-      dispatch(fetchRewards())
+    
+    const handleDelete=async (id)=>{
+      try {
+        await  dispatch(DeleteReward(id))
+        dispatch(fetchRewards())
+        
+      } catch (error) {
+        console.log(error)
+      }
     }
+    // const handleDelete=async (id)=>{
+    //     try {
+    //       await fetch(`http://localhost:3000/Rewards/${id}`,{
+    //         method:"DELETE"
+    //       })
+    //       dispatch(fetchRewards())
+    //     } catch (error) {
+    //       console.log(error)
+    //     }
+    // }
   return (
     <div className="container mx-auto   p-4 ">
     <div className='flex flex-row justify-between'>

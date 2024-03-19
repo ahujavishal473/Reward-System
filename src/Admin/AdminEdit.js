@@ -82,9 +82,9 @@ const AdminEdit = () => {
                 <div className="flex items-start p-5">
                     <form action="" onSubmit={handleUpdate}>
                         <label htmlFor="" className="block text-sm font-medium text-gray-700 pt-2" >Username</label><br />
-                        <input type="text" name="username" id="username" value={userdata.username} onChange={handleChange} className="border p-2 border-gray-500 w-[420px] h-[40px] rounded-md" /><br /><br />
+                        <input type="text" name="username" id="username" value={userdata.username} onChange={handleChange} className="border p-2 border-gray-500 w-[420px] h-[40px] rounded-md" required/><br /><br />
                         <label htmlFor="" className="block text-sm font-medium text-gray-700">Email</label><br />
-                        <input type="email" name="email" id="email" value={userdata.email} onChange={handleChange} className="border p-2 border-gray-500 w-[420px] h-[40px] rounded-md" /><br /><br />
+                        <input type="email" name="email" id="email" value={userdata.email} onChange={handleChange} className="border p-2 border-gray-500 w-[420px] h-[40px] rounded-md" required /><br /><br />
                         <label htmlFor="" className="block text-sm font-medium text-gray-700">Role</label><br />
                         <select name="role" id="role" value={userdata.role} onChange={handleChange} className="border p-2 border-gray-500 w-[420px] h-[40px] rounded-md">
                             <option value="">select</option>

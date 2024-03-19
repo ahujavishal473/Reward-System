@@ -35,7 +35,7 @@ const Admin = () => {
     navigate('/')
   }
   return (
-    <div className='container w-full h-full '>
+    <div className='container max-w-none '>
       {/* left-side */}
       <div className='dashboard-left h-full w-[200px] fixed top-0 left-0 border border-black bg-[#343a40] '>
         <div className='company text-4xl pl-3 text-white font-bold mt-2'>Logwin</div>

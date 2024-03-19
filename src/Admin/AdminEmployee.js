@@ -14,12 +14,17 @@ const AdminHome = () => {
     useEffect(()=>{
         axios.get("http://localhost:3000/user")
         .then((response)=>setuserData(response.data))
-    },[])
+    },[userData])
     const handleDelete=async(user)=>{
-            fetch(`http://localhost:3000/user/${user.id}`,{
+        try {
+          fetch(`http://localhost:3000/user/${user.id}`,{
                 method:"DELETE"
             })
-        alert("delete user successfully")
+            setuserData(userData.filter((users)=>users.id !== user.id))
+        } catch (error) {
+          console.log(error)
+        }
+        
     }
   
     return (
@@ -49,7 +54,7 @@ const AdminHome = () => {
                 </tr>
               </thead>
               <tbody className='font-clash'>
-                {userData.filter((item)=>item.username.includes(search)).map((user) => (
+                {userData.map((user) => (
                   user.role !== 'admin' ? (
                     <tr key={user.id} className="border-t border-gray-300 text-center">
                       <td className="py-2 px-4">{user.username}</td>

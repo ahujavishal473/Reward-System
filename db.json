@@ -9,22 +9,6 @@
       "point": 0
     },
     {
-      "id": "748e",
-      "username": "vishal",
-      "email": "vishal@gmail.com",
-      "role": "employee",
-      "password": "1234",
-      "point": 2250
-    },
-    {
-      "id": "7814",
-      "username": "prem",
-      "email": "prem@gmail.com",
-      "role": "employee",
-      "password": "1234",
-      "point": 750
-    },
-    {
       "id": "f278",
       "username": "deep",
       "email": "deep@gmail.com",
@@ -33,27 +17,27 @@
       "point": 500
     },
     {
-      "id": "fc54",
-      "username": "Akshat",
-      "email": "akshat@gmail.com",
+      "id": "35d9",
+      "username": "vishal",
+      "email": "vishalahuja5678@gmail.com",
       "role": "employee",
       "password": "1234",
       "point": 0
     },
     {
-      "id": "d8ff",
-      "username": "karan",
-      "email": "kku2@gmail.com",
+      "id": "1474",
+      "username": "Akshat",
+      "email": "akshat@gmail.com",
       "role": "employee",
-      "password": "321",
-      "point": 500
+      "password": "1234",
+      "point": 2000
     }
   ],
   "products": [
     {
       "category": "men's clothing",
       "title": "Mens Casual Slim Fit",
-      "points": 1000,
+      "points": "10000",
       "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
       "brand": "roadster",
       "id": "5",
@@ -69,37 +53,28 @@
       "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
     },
     {
-      "category": "jewelery",
-      "title": "White Gold Plated Princess",
-      "points": 2500,
-      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-      "brand": "tanishq",
-      "id": "7",
-      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
-    },
-    {
-      "category": "jewelery",
-      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-      "points": 3000,
-      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-      "brand": "kalyan",
-      "id": "8",
-      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
-    },
-    {
-      "id": "8c3e",
-      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
-      "points": "500",
+      "id": "1d8b",
+      "title": "Nike Air Max 97",
+      "points": "4000",
       "brand": "nike",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter."
+      "category": "shoes",
+      "image": "https://mansours.com/cdn/shop/products/Untitled_1800x1800px_17_394x.png?v=1634330008",
+      "description": "The Nike Air Max 97 is a classic running shoe that has been re-released in a variety of colors and styles. It features a comfortable Air Max cushioning system and a sleek, minimalist design."
     },
     {
-      "id": "68f9",
-      "title": "Mens Cotton Jacke",
-      "points": "500",
-      "brand": "roadster",
+      "id": "3277",
+      "title": "Adidas Ultraboost 22",
+      "points": "2000",
+      "brand": "Adidas",
+      "category": "shoes",
+      "image": "https://mansours.com/cdn/shop/products/Untitled_1800x1800px_26_1800x.png?v=1634331447",
+      "description": "The Adidas Ultraboost 22 is a running shoe that features a comfortable Boost cushioning system and a Primeknit upper. It's designed to provide support and energy return for long-distance runs."
+    },
+    {
+      "id": "912c",
+      "title": "Mens Cotton Jacket",
+      "points": "1000",
+      "brand": "addidas",
       "category": "men's clothing",
       "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
       "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day."
@@ -107,23 +82,30 @@
   ],
   "Rewards": [
     {
-      "id": "0279",
+      "id": "83be",
+      "name": "Birthday",
+      "point": "250"
+    },
+    {
+      "id": "01ea",
       "name": "Game",
       "point": "250"
     },
     {
-      "id": "13b0",
+      "id": "28ef",
       "name": "Employee of the month",
-      "point": "500"
+      "point": "1000"
     },
     {
-      "id": "7481",
-      "name": "Birthday",
+      "id": "549b",
+      "name": "1st Anniversary",
+      "point": "1000"
+    },
+    {
+      "id": "29b2",
+      "name": "2nd Anniversary",
       "point": "1500"
     }
   ],
-  "orders":[
-    
-  ]
-  
+  "orders": []
 }

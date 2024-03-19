@@ -9,16 +9,21 @@ import Register from './Admin/Register';
 import Reward from './Admin/Reward';
 import Point from './Admin/Point';
 import RewardEdit from './Admin/RewardEdit';
+import Nav from './Employee/Nav';
+import EmpolyeeHome from './Employee/EmpolyeeHome';
+import ProductDetail from './Employee/ProductDetail';
+import Product from './Employee/Product';
 function App() {
   return (
     <div >
    
       <Router>
+          {/* <Nav /> */}
         <Routes>
-
-          <Route path='/' element={<Login />}/>
-        
           
+          <Route path='/' element={<Product />}/>
+          <Route path='/productdetails/:id' element={<ProductDetail />} />
+          <Route path='/login' element={<Login />} />
           <Route path='/admin/*' element={<Admin />}/>
           <Route path='employee' element={<AdminEmployee />} />
           <Route path='products' element={<AdminProducts />} />
