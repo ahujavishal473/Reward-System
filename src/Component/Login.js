@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
 import { Link, json, useNavigate } from 'react-router-dom'
+import { setuserdata } from '../store/LoginSlice'
 
 const Login = () => {
+    const dispatch=useDispatch()
     const navigate=useNavigate()
     const [formData, setFormData] = useState({
         username: '',
@@ -24,7 +27,8 @@ const Login = () => {
         console.log("data",data);
         if(data.length>0){
             if(formData.password=== data[0].password){
-                localStorage.setItem("loginUser",JSON.stringify(data))
+                dispatch(setuserdata(data[0]))
+                // localStorage.setItem("loginUser",JSON.stringify(data))
                 if(data[0].role==='admin'){
                     navigate('/admin/dashboard')
                 }

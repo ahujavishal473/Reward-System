@@ -30,7 +30,15 @@
       "email": "akshat@gmail.com",
       "role": "employee",
       "password": "1234",
-      "point": 2000
+      "point": 1500
+    },
+    {
+      "id": "8ed7",
+      "username": "prem",
+      "email": "p@gmail.com",
+      "role": "employee",
+      "password": "1234",
+      "point": 4000
     }
   ],
   "products": [
@@ -107,5 +115,76 @@
       "point": "1500"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": "259f",
+      "userid": "1474",
+      "username": "Akshat",
+      "product_id": "912c",
+      "email": "akshat@gmail.com",
+      "product_name": "Mens Cotton Jacket",
+      "product_points": "1000",
+      "orderDate": "20-3-2024"
+    },
+    {
+      "id": "57bd",
+      "userid": "1474",
+      "username": "Akshat",
+      "product_id": "3277",
+      "email": "akshat@gmail.com",
+      "product_name": "Adidas Ultraboost 22",
+      "product_points": "2000",
+      "orderDate": "20-3-2024"
+    },
+    {
+      "id": "17cb",
+      "userid": "35d9",
+      "username": "vishal",
+      "product_id": "912c",
+      "email": "vishalahuja5678@gmail.com",
+      "product_name": "Mens Cotton Jacket",
+      "product_points": "1000",
+      "orderDate": "20-3-2024"
+    },
+    {
+      "id": "5b7c",
+      "userid": "35d9",
+      "username": "vishal",
+      "product_id": "912c",
+      "email": "vishalahuja5678@gmail.com",
+      "product_name": "Mens Cotton Jacket",
+      "product_points": "1000",
+      "orderDate": "20-3-2024"
+    },
+    {
+      "id": "ecae",
+      "userid": "f278",
+      "username": "deep",
+      "product_id": "1d8b",
+      "email": "deep@gmail.com",
+      "product_name": "Nike Air Max 97",
+      "product_points": "4000",
+      "orderDate": "21-3-2024"
+    },
+    {
+      "id": "9dc0",
+      "userid": "f278",
+      "username": "deep",
+      "product_id": "912c",
+      "email": "deep@gmail.com",
+      "product_name": "Mens Cotton Jacket",
+      "product_points": "1000",
+      "orderDate": "21-3-2024"
+    },
+    {
+      "id": "33a5",
+      "userid": "f278",
+      "username": "deep",
+      "product_id": "912c",
+      "email": "deep@gmail.com",
+      "product_name": "Mens Cotton Jacket",
+      "product_points": "1000",
+      "orderDate": "21-3-2024"
+    }
+  ]
 }

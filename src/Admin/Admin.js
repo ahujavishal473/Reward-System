@@ -20,6 +20,7 @@ import Reward from './Reward';
 import Point from './Point';
 import RewardEdit from './RewardEdit';
 import { CiGift } from "react-icons/ci";
+import OrderList from './OrderList';
 const Admin = () => {
   const [isLogin, setisLogin] = useState(false)
   const navigate = useNavigate()
@@ -109,6 +110,7 @@ const Admin = () => {
             <Route path='reward' element={<Reward />} />
             <Route path='addrewardcategory' element={<Point />} />
             <Route path='editreward/:id' element={<RewardEdit />} />
+            <Route path='orders' element={<OrderList />} />
           </Routes>
         </div>
       </div>
