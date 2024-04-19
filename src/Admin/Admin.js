@@ -89,7 +89,7 @@ const Admin = () => {
       <div className='dashboard-right ml-[200px]'>
         {/* heading as navbar */}
         <div className='header flex flex-row  justify-between p-4 sticky top-0 z-10  bg-white self-stretch items-baseline'>
-          <div className='name text-[#6c757d] text-2xl font-semibold'>Welcome Admin</div>
+          <div className='name text-black text-2xl font-semibold'>Welcome Admin</div>
           <div className='login text-[#767e87] '>
             {
               isLogin?<button onClick={()=>handleLogout()} className='text-xl bg-blue-500 p-2 rounded-lg text-white hover:bg-blue-700' >Logout</button>:<button>Login</button>

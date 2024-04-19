@@ -25,7 +25,7 @@ function App() {
           <Route path='/' element={<Product />} />
           <Route path='/login' element={<Login />} />
           <Route element={<PrivateRoutes />}>
-            <Route path='/admin/*' element={<Admin />} />
+            <Route exact path='/admin/*' element={<Admin />} />
           </Route>
           {/* <Route path='employee' element={<AdminEmployee />} />
           <Route path='products' element={<AdminProducts />} />
@@ -34,13 +34,14 @@ function App() {
           <Route path='reward' element={<Reward />}/>
           <Route path='addrewardcategory' element={<Point />} />
           <Route path='editreward/:id' element={<RewardEdit />} /> */}
-          <Route path='/order' element={<EmployeeOrder />} />
+          
           <Route element={<PublicRoutes />}>
-
-            <Route path='/productdetails/:id' element={<ProductDetail />} />
+          <Route path='/order' element={<EmployeeOrder />} />
+            <Route exact path='/productdetails/:id' element={<ProductDetail />} />
           </Route>
         </Routes>
       </Router>
+     
     </div>
   );
 }

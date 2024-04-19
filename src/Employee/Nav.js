@@ -3,6 +3,9 @@ import { FaUserCircle } from "react-icons/fa";
 import Product from './Product';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+
+
+
 const Nav = () => {
 
   const LoginUser = JSON.parse(localStorage.getItem("loginUser"))
@@ -16,8 +19,9 @@ const Nav = () => {
     }
   }, [LoginUser])
 
-  const handleClick=()=>{
-    setShow(!isShow)
+  const handleLogout=()=>{
+    localStorage.removeItem("loginUser")
+    setisLogin(false)
   }
   // const handleMouseEnter = () => {
   //   setShow(true)
@@ -39,6 +43,12 @@ const Nav = () => {
               <div className='flex flex-row space-x-8 self-stretch items-baseline mr-5'>
                 <div>{LoginUser.username}</div>
                 <div>{LoginUser.point} points</div>
+                <div>
+                  <Link to={'/order'}>Order</Link>
+                </div>
+                <div>
+                  <button onClick={()=>handleLogout()} className='text-blue-950 font-bold'>Logout</button>
+                </div>
               </div> :
               <>
                 <div>
@@ -46,15 +56,8 @@ const Nav = () => {
                 </div>
               </>}
           </div>
-          {/* onMouseEnter={() => handleMouseEnter()} onMouseLeave={() => handleMouseLeave()} */}
-          <div>
-              <div className=' text-gray-400 text-2xl' onClick={()=>handleClick()} ><FaUserCircle /></div>
-              {isShow && isLogin ?
-              <div className=''>
-                <button>Order</button><br />
-                <button>Logout</button>
-              </div>:null}
-          </div>
+     
+
         </div>
         
       </div>

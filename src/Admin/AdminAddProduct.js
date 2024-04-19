@@ -47,7 +47,7 @@ const AdminAddProduct = () => {
                         <input type="text" name="image" id="image" value={addProducts.image} onChange={handleChange} className='border p-2 border-gray-500 md:w-[420px] md:h-[40px]' required />
                         <label htmlFor="" className="block text-sm font-medium text-gray-700">description</label>
                         {/* <textarea name="" id="" cols="55" rows="5" value={addProducts.description} onChange={handleChange} className='border p-2 border-gray-500'></textarea> */}
-                        <input type='text' name="description" id="description" value={addProducts.description} onChange={handleChange} className='border p-2 border-gray-500 md:w-[420px] md:h-[40px]' required />
+                        <input type='text' name="description" id="description" value={addProducts.description} onChange={handleChange} className='border p-2 border-gray-500 md:w-[420px] md:h-[40px]' requiredjso />
                         <button type='submit' className='bg-blue-500 hover:bg-blue-700 text-white text-center py-2 md:w-[420px]' onClick={handleSubmit}>Add product</button>
                     </form>
                 </div>

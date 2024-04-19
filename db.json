@@ -14,7 +14,7 @@
       "email": "deep@gmail.com",
       "role": "hr",
       "password": "1234",
-      "point": 500
+      "point": 1500
     },
     {
       "id": "35d9",
@@ -30,7 +30,7 @@
       "email": "akshat@gmail.com",
       "role": "employee",
       "password": "1234",
-      "point": 1500
+      "point": 500
     },
     {
       "id": "8ed7",
@@ -38,14 +38,14 @@
       "email": "p@gmail.com",
       "role": "employee",
       "password": "1234",
-      "point": 4000
+      "point": 1490
     }
   ],
   "products": [
     {
       "category": "men's clothing",
       "title": "Mens Casual Slim Fit",
-      "points": "10000",
+      "points": "500",
       "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
       "brand": "roadster",
       "id": "5",
@@ -62,21 +62,21 @@
     },
     {
       "id": "1d8b",
-      "title": "Nike Air Max 97",
+      "title": "New Balance Youth Sneaker - YP680SP5",
       "points": "4000",
-      "brand": "nike",
+      "brand": "New Balance ",
       "category": "shoes",
       "image": "https://mansours.com/cdn/shop/products/Untitled_1800x1800px_17_394x.png?v=1634330008",
-      "description": "The Nike Air Max 97 is a classic running shoe that has been re-released in a variety of colors and styles. It features a comfortable Air Max cushioning system and a sleek, minimalist design."
+      "description": "New Balance  is a classic running shoe that has been re-released in a variety of colors and styles. It features a comfortable Air Max cushioning system and a sleek, minimalist design."
     },
     {
       "id": "3277",
-      "title": "Adidas Ultraboost 22",
+      "title": "New Balance Training Sneakers - MX608WN5",
       "points": "2000",
-      "brand": "Adidas",
+      "brand": "New Balance",
       "category": "shoes",
       "image": "https://mansours.com/cdn/shop/products/Untitled_1800x1800px_26_1800x.png?v=1634331447",
-      "description": "The Adidas Ultraboost 22 is a running shoe that features a comfortable Boost cushioning system and a Primeknit upper. It's designed to provide support and energy return for long-distance runs."
+      "description": "New Balance Training Sneakers - MX608WN5 is a running shoe that features a comfortable Boost cushioning system and a Primeknit upper. It's designed to provide support and energy return for long-distance runs."
     },
     {
       "id": "912c",
@@ -116,26 +116,6 @@
     }
   ],
   "orders": [
-    {
-      "id": "259f",
-      "userid": "1474",
-      "username": "Akshat",
-      "product_id": "912c",
-      "email": "akshat@gmail.com",
-      "product_name": "Mens Cotton Jacket",
-      "product_points": "1000",
-      "orderDate": "20-3-2024"
-    },
-    {
-      "id": "57bd",
-      "userid": "1474",
-      "username": "Akshat",
-      "product_id": "3277",
-      "email": "akshat@gmail.com",
-      "product_name": "Adidas Ultraboost 22",
-      "product_points": "2000",
-      "orderDate": "20-3-2024"
-    },
     {
       "id": "17cb",
       "userid": "35d9",
@@ -185,6 +165,36 @@
       "product_name": "Mens Cotton Jacket",
       "product_points": "1000",
       "orderDate": "21-3-2024"
+    },
+    {
+      "id": "4ab4",
+      "userid": "8ed7",
+      "username": "prem",
+      "product_id": "1d8b",
+      "email": "p@gmail.com",
+      "product_name": "Nike Air Max 97",
+      "product_points": "4000",
+      "orderDate": "24-3-2024"
+    },
+    {
+      "id": "01f7",
+      "userid": "1474",
+      "username": "Akshat",
+      "product_id": "912c",
+      "email": "akshat@gmail.com",
+      "product_name": "Mens Cotton Jacket",
+      "product_points": "1000",
+      "orderDate": "27-3-2024"
+    },
+    {
+      "id": "ba08",
+      "userid": "1474",
+      "username": "Akshat",
+      "product_id": "912c",
+      "email": "akshat@gmail.com",
+      "product_name": "Mens Cotton Jacket",
+      "product_points": "1000",
+      "orderDate": "19-4-2024"
     }
   ]
 }
