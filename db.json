@@ -39,13 +39,21 @@
       "role": "employee",
       "password": "1234",
       "point": 1490
+    },
+    {
+      "id": "b1aa",
+      "username": "parth",
+      "email": "pmodi@gmail.com",
+      "role": "employee",
+      "password": "1234",
+      "point": 300
     }
   ],
   "products": [
     {
       "category": "men's clothing",
       "title": "Mens Casual Slim Fit",
-      "points": "500",
+      "points": "700",
       "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
       "brand": "roadster",
       "id": "5",
@@ -195,6 +203,16 @@
       "product_name": "Mens Cotton Jacket",
       "product_points": "1000",
       "orderDate": "19-4-2024"
+    },
+    {
+      "id": "b120",
+      "userid": "b1aa",
+      "username": "parth",
+      "product_id": "5",
+      "email": "pmodi@gmail.com",
+      "product_name": "Mens Casual Slim Fit",
+      "product_points": "700",
+      "orderDate": "11-5-2024"
     }
   ]
 }

@@ -10,7 +10,6 @@
 
 # production
 /build
-LoginSlice.js
 # misc
 .DS_Store
 .env.local
